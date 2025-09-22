@@ -32,8 +32,8 @@ h2 {
 }
 
 p {
-    font-family: "Lovers Quarrel", cursive;
-    font-size: 32px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     color: #f8f9fa;
     margin-bottom: 18px;
@@ -57,13 +57,13 @@ hr {
     font-size: 22px;
     color: #f8f9fa !important;
     transition: color 0.2s;
-    text-decoration: underline;
     letter-spacing: 1px;
 }
 
 .navbar-nav .nav-link:hover {
     color: #ffffff !important;
     background-color: #10131a;
+    text-decoration: underline;
     border-radius: 5px;
 }
 
@@ -80,8 +80,8 @@ hr {
 
 #contact p,
 #contact li {
-    font-family: "Lovers Quarrel", cursive;
-    font-size: 32px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
     color: #f8f9fa;
     line-height: 1.5;
     margin-bottom: 10px;
