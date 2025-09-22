@@ -58,7 +58,7 @@ hr {
 }
 
 .navbar {
-    background-color: #1a2a6c;
+    background: linear-gradient(90deg, #0d1a4a 60%, #1e3c72 100%) !important;
     box-shadow: 0 2px 12px #000a1a;
 }
 
