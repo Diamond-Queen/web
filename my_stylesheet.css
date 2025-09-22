@@ -58,8 +58,9 @@ hr {
 }
 
 .navbar {
-    background: linear-gradient(90deg, #0d1a4a 60%, #1e3c72 100%) !important;
-    box-shadow: 0 2px 12px #000a1a;
+    background-color: #14213d !important; /* deep dark blue */
+    box-shadow: 0 2px 8px rgba(20,33,61,0.08);
+    border-bottom: 2px solid #fca311;
 }
 
 .navbar-brand, .nav-link {
@@ -68,6 +69,18 @@ hr {
     color: #f8f9fa !important;
     transition: color 0.2s;
     letter-spacing: 1px;
+}
+
+.navbar-brand {
+    font-family: 'Audiowide', cursive;
+    font-size: 1.6rem;
+    color: #fca311 !important;
+}
+
+.nav-link {
+    color: #fca311 !important;
+    font-weight: 500;
+    transition: color 0.2s;
 }
 
 .navbar-nav .nav-link:hover {
