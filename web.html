@@ -61,6 +61,11 @@
                     <input type="email" name="email" class="form-control mb-2" placeholder="Enter your email" required>
                     <button type="submit" class="btn btn-primary w-100">Sign Up</button>
                 </form>
+                <script>
+                    document.getElementById('signup-form').addEventListener('submit', function(e) {
+                        alert('Thank you for signing up! We will contact you soon.');
+                    });
+                </script>
             </div>
         </div>
 
