@@ -136,7 +136,7 @@ button.btn-primary:hover {
 
 .card {
     background: transparent;
-    border: 1px solid #1a2a6c; /* optional: elegant border */
+    border: 1px solid #1a2a6c; /* elegant border */
     box-shadow: 0 2px 12px #000a1a22;
     color: white;
     transition: transform 0.2s, box-shadow 0.2s;
