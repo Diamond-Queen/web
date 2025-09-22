@@ -40,6 +40,16 @@ p {
     font-style: italic;
 }
 
+#pricing ul li {
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    color: #f8f9fa;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-style: italic;
+    list-style-type: square;
+}
+
 hr {
     border: none;
     border-top: 2px solid #1a2a6c;
@@ -114,4 +124,8 @@ button.btn-primary:hover {
     background-color: #10131a;
     color: #1a2a6c;
     border: 1px solid #1a2a6c;
+}
+
+#navbarNav {
+    background-color: #1a2a6c;
 }

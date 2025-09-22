@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset = "utf=8">
+        <meta charset="utf-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1">
         <title> WebSite </title>
         <!-- Bootstrap CSS -->
@@ -16,7 +16,7 @@
 
     <body>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> Tutor Service </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#services">Services</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +57,15 @@
             <div class="position-relative d-flex flex-column justify-content-center align-items-center" style="z-index:2; min-height: 900px;">
                 <h1> Welcome to Tutors R US </h1>
                 <p>Sign Up for Lessons Here!</p>
-                <button class="btn btn-primary">Sign Up</button>
+                <form action="https://formspree.io/f/myzngazo" method="POST" class="d-flex flex-column align-items-center" style="max-width: 350px; width: 100%;" id="signup-form">
+                    <input type="email" name="email" class="form-control mb-2" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                </form>
+                <script>
+                    document.getElementById('signup-form').addEventListener('submit', function(e) {
+                        alert('Thank you for signing up! We will contact you soon.');
+                    });
+                </script>
             </div>
         </div>
 
@@ -92,7 +103,33 @@
                 <div class="col-12 section-full" id="services">
                     <h2>Services</h2>
                     <hr>
-                    <p>We offer personalized tutoring sessions, group workshops, and online support for a variety of subjects. Contact us to find out more!</p>
+                    <p>We are pleased to offer a diverse range of academic support services,
+                         including personalized one-on-one tutoring sessions designed to address individual learning objectives,
+                          structured group workshops that foster collaborative learning environments, and comprehensive online assistance
+                           across a broad spectrum of subjects. For additional information or to discuss how our services can best meet 
+                           your educational needs, please feel free to contact us at your convenience.
+
+                    </p>
+                </div>
+                <hr class="my-5">
+                <div class="col-12 section-full" id="pricing">
+                    <h2>Pricing</h2>
+                    <hr>
+                    <p> We offer flexible pricing for our tutoring services, with rates starting at $5 per hour 
+                        for individual sessions and $25 per hour for group sessions. 
+                        We also provide package deals and discounts for long-term commitments.
+                     Please contact us for a detailed pricing list and to discuss any special requirements you may have.
+                    <br> 
+                     Look below for a brief overview of our pricing structure:
+
+                     <ul>
+                        <li>Individual Tutoring: $5/hour</li>
+                        <li>Group Tutoring: $25/hour</li>
+                        <li>Package Deals: Contact us for details</li>
+                        <li>Long-term Commitment Discounts: Contact us for details</li>
+                     </ul>
+
+                    </p>
                 </div>
             </div>
         </div>
