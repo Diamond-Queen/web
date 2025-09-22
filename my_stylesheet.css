@@ -47,7 +47,7 @@ p {
     line-height: 1.5;
     margin-bottom: 10px;
     font-style: italic;
-    list-style-type: square;
+    list-style-type: circle;
 }
 
 hr {
@@ -58,9 +58,8 @@ hr {
 }
 
 .navbar {
-    background-color: #14213d !important; /* deep dark blue */
-    box-shadow: 0 2px 8px rgba(20,33,61,0.08);
-    border-bottom: 2px solid #fca311;
+    background-color: #1a2a6c;
+    box-shadow: 0 2px 12px #000a1a;
 }
 
 .navbar-brand, .nav-link {
@@ -69,18 +68,6 @@ hr {
     color: #f8f9fa !important;
     transition: color 0.2s;
     letter-spacing: 1px;
-}
-
-.navbar-brand {
-    font-family: 'Audiowide', cursive;
-    font-size: 1.6rem;
-    color: #fca311 !important;
-}
-
-.nav-link {
-    color: #fca311 !important;
-    font-weight: 500;
-    transition: color 0.2s;
 }
 
 .navbar-nav .nav-link:hover {
@@ -142,3 +129,37 @@ button.btn-primary:hover {
 #navbarNav {
     background-color: #1a2a6c;
 }
+
+.card-body {
+    background: rgba(26, 42, 108, 0.15); /* very subtle dark blue tint */
+}
+
+.card {
+    background: transparent;
+    border: 1px solid #1a2a6c; /* optional: elegant border */
+    box-shadow: 0 2px 12px #000a1a22;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 24px #000a1a44;
+}
+
+.card-title {
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    color: #f8f9fa;
+    margin-bottom: 12px;
+    font-style: italic;
+    text-shadow: 0 1px 8px #1a2a6c;
+    letter-spacing: 1px;
+}
+
+.card-text {
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    color: #f8f9fa;
+    line-height: 1.5;
+}   
