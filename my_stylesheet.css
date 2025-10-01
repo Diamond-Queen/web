@@ -40,6 +40,16 @@ p {
     font-style: italic;
 }
 
+#pricing ul li {
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    color: #f8f9fa;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-style: italic;
+    list-style-type: circle;
+}
+
 hr {
     border: none;
     border-top: 2px solid #1a2a6c;
@@ -115,3 +125,41 @@ button.btn-primary:hover {
     color: #1a2a6c;
     border: 1px solid #1a2a6c;
 }
+
+#navbarNav {
+    background-color: #1a2a6c;
+}
+
+.card-body {
+    background: rgba(26, 42, 108, 0.15); /* very subtle dark blue tint */
+}
+
+.card {
+    background: transparent;
+    border: 1px solid #1a2a6c; /* elegant border */
+    box-shadow: 0 2px 12px #000a1a22;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 24px #000a1a44;
+}
+
+.card-title {
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    color: #f8f9fa;
+    margin-bottom: 12px;
+    font-style: italic;
+    text-shadow: 0 1px 8px #1a2a6c;
+    letter-spacing: 1px;
+}
+
+.card-text {
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    color: #f8f9fa;
+    line-height: 1.5;
+}   
